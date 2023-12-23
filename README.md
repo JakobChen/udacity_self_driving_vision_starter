@@ -274,7 +274,7 @@ We can notice the adam optimizer has improved the total loss to 1 which is ver p
 
 Evaluation of the model:
 ![exp3_precision](experiments/experiment3/exp3_precision.png)
-![exp3_recall](experiments/experiment3/exp3_recall.png)barstacked
+![exp3_recall](experiments/experiment3/exp3_recall.png)
 ![exp3_loss](experiments/experiment3/exp3_loss.png)
 
 
@@ -299,8 +299,11 @@ Evaluation of the model:
 We have used two strategies to improve the model detection performance as descript in the above four experiments. In summary, we can see data augmentation is very powerful method to improve the generalization ability of the model.
 In this model we used the classical data augmentation methods, for instance, image crop, brightness adjustment, etc. Actually, we can also apply the generative model to use the synthetic model. 
 - Random brightness adjust
+
 ![brightness_adjust](results/brightness_adjust.png)
-- Random blur 
+
+- Random blur
+ 
 ![blur](results/blur.png)
 
 ### Animation
