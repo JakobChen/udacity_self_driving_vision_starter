@@ -200,6 +200,12 @@ For instance, the following two training images with the corresponding bonding b
 ![fig_0](results/step1/fig_26.png)
 
 In addition, we analyzed the 10000 training images to understand more deep of the data. We found the major objects per frame is car. The rare occurred object is cyclist. This result is matched with normal traffic scenarios.
+
+- total images:  10000
+- car per image:  17.2494
+- pedestrain per image:  4.8304
+- cyclist per image:  0.1221
+
 The detailed statics of the object number per frame is illustrated as follows:
 
 ![fig_0](results/object_count_per_img.png)
